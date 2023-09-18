@@ -14,7 +14,12 @@ const App = () =>{
         <Navbar/>
         <div className="container">
             <Jumbotron/>
-            <Card/>
+                <div className="cards d-flex">
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                </div>
         </div>
         <Footer/>
         </>
